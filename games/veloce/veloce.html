@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>VELOCE</title>
+    <link rel="icon" href="icon.png">
+    <link rel="shortcut icon" href="icon.png">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script defer src="/js/main.js" type="text/javascript"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+      }
+      #unityContainer {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Web.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div id="unityContainer"></div>
+  </body>
+</html>
