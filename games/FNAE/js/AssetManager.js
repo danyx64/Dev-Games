@@ -71,8 +71,8 @@ class AssetManager {
     getBasePath() {
         // 检查是否在 iframe 中
         const currentPath = window.location.pathname;
-        if (currentPath.includes('/FNAE-HTML5-1.1.5/')) {
-            return '/FNAE-HTML5-1.1.5/';
+        if (currentPath.includes('')) {
+            return '';
         }
         // 本地开发环境
         return './';
