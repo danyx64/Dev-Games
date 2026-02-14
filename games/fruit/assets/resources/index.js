@@ -1,0 +1,1 @@
+System.register("chunks:///_virtual/resources",[],(function(){"use strict";return{execute:function(){}}})),function(e){var r,t;r="virtual:///prerequisite-imports/resources",t="chunks:///_virtual/resources",System.register(r,[t],(function(e,r){return{setters:[function(r){var t={};for(var u in r)"default"!==u&&"__esModule"!==u&&(t[u]=r[u]);e(t)}],execute:function(){}}}))}();
